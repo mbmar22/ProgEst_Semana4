@@ -12,3 +12,20 @@ Desarrollen un programa para una ferretería que cumpla estos requerimientos:
     8. Explicar qué parámetros presentan comportamiento similar al paso por valor.
 '''
 
+print("3. Aplicación de funciones y procedimientos.")
+print("\n----- FACTURA FERRETERÍA -----")
+
+def datos_producto():
+    global producto
+    producto = print("Producto: ")
+    global precio
+    precio = print("Precio: ")
+    global cantidad
+    cantidad = print("Cantidad: ")
+
+def calculo_subtotal(precio, cantidad):
+    return precio * cantidad
+
+def calculo_descuento(subtotal):
+    if subtotal >= 3000:
+        subtotal = subtotal - (subtotal * 0.08)
