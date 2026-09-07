@@ -11,3 +11,4 @@ Desarrollen un programa para una ferretería que cumpla estos requerimientos:
     7. Probar el programa con una compra que reciba descuento y otra que no lo reciba.
     8. Explicar qué parámetros presentan comportamiento similar al paso por valor.
 '''
+

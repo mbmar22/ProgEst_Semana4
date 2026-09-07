@@ -7,6 +7,7 @@ Práctica del tema
 '''
 
 '''
+# Ejercicios 1 y 2
 def calcular_total():
     global nombre_empresa
     total += 1
@@ -17,6 +18,7 @@ No funciona ya que "total" no está definido fuera de la función.
 '''
 
 print("1. Ámbito de variables y funciones.")
+print("Ejercicio 3")
 total = int(input("Ingrese un número entero: "))
 
 def calcular_total():
